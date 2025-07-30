@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Double:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+p{
+  color:rgb(0, 0, 0);  
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+}
+
+h2{
+  color:blue;  
+  font-family: "Open Sans", sans-serif;
+  font-size: 30px;
+}
+
+h1{
+    color: red;
+    font-family: "Bitcount Prop Double", system-ui;
+    font-size: 70px;
+    font-weight: 300;
+}
+
+.header-container{
+    /*border: 1px solid red;*/
+    text-align: center;
+    position: absolute;
+    top: 100px;
+    display: block;
+    width: 100%;
+}
+
+#header-btn{
+    background-color: rgb(28, 18, 112);
+    color: white;
+    text-decoration: none;
+    width: 200px;
+    height:35px;
+    display: inline-block;
+    border-radius: 70px;
+    padding-top: 5px;
+}
+
+#drone-image{
+    opacity: 0.5;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    background-color: black;
+}
+
+.cards-container{
+    margin: 10px;
+}
+
+.review-container{
+    background-color: aquamarine;
+    height: 200px;
+    width: 100%;
+}
